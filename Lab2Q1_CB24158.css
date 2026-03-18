@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    color: #38c7a5;
+}
+
+
+
+.up-cont {
+    background-image: url('FK4.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 40px;
+}
+
+.up-cont hr {
+    border: 0;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+.facts-cont {
+    display: flex;
+    gap: 60px;
+}
+
+
+.facts-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+.programs-section {
+    background-color: #38c7a5;
+    padding: 30px 40px;
+    color: black;
+}
+
+
+.programs-section ul {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.programs-section a {
+    color: #333;
+    text-decoration: underline;
+}
