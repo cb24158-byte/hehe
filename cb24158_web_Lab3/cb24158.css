@@ -1,0 +1,49 @@
+body{
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+fieldset {
+    border-color: #003399;
+}
+
+.userProfile{
+    display: flex; 
+    gap: 4px;
+    justify-content: flex-end;
+    margin-top: -50px;
+    padding-right: 20;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 20;
+    justify-content: flex-end;
+    gap: 30px;
+
+    
+}
+
+.navbar a:hover {
+    background-color: #EBEBE0;
+    padding: 8px;
+}
+
+.appForm{
+    border: 2px dotted black;
+    padding: 5px;
+}
+
+.button input{
+    background-color: #009973;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    align-content: center;
+}
+.button {
+    text-align: center;
+}
