@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    border: 2px solid #8dbd35;
+    background-color: white;
+}
+
+
+th {
+    color: #8dbd35;
+    font-weight: bold;
+}
+
+
+.label {
+    background-color: #a2d043;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+td.label, tr[style*="font-weight: bold;"] td {
+    background-color: #d9eab2;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #8dbd35;
+}
+
+
+td {
+    border: 1px solid #8dbd35;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+td[rowspan="5"] {
+    background-color: white;
+    width: 180px;
+    text-align: center;
+}
+
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #444;
+}
+
+li {
+    margin-bottom: 5px;
+}

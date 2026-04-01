@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+            }
+            div{
+                border: 1px solid black;
+                
+            }
+        </style>
+    </head>
+    <body>
+
+        <div>
+        <table>
+        <caption><h1>Your Personal Details</h1></caption>
+            <tr>
+                <td><b>Your name: </b></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><b>Student number: </b></td>
+                <td><input type="text" name="stdNum"></td>
+            </tr>
+
+            <tr>
+                <td><b>Program: </b></td>
+                <td>
+                    <select name="course">
+                    <option>Bachelor of Computer Science (Software Engineering) with Honours</option>
+                    <option>Bachelor of Computer Science (Computer Systems & Networking) with Honours</option>
+                    <option>Bachelor of Computer Science (Graphic & Multimedia Technology) with Honours</option>
+                    <option>Bachelor of Computer Science (Cyber Security) with Honours</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Gender:</b></td>
+                <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Hobby:</b></td>
+                <td><input type="checkbox" name="hobby" value="Reading">Reading
+                    <input type="checkbox" name="hobby" value="Outdoor Activities">Outdoor activities
+                    <input type="checkbox" name="hobby" value="Watching TV">Watching TV
+                    <input type="checkbox" name="hobby" value="Sleeping">Sleeping
+            </tr>
+
+
+            <tr>
+                <td><b>Comments:</b></td>
+                <td><textarea name="comment" rows="3" cols="32"></textarea></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
