@@ -1,0 +1,82 @@
+
+<html>
+<head>
+        <link rel="stylesheet" href="prehot.css">
+  <title>EPES - Horizon Tech</title>
+</head>
+<body>
+  <header>
+    
+      <img src="horizon-logo.png" alt="Horizon Tech Logo" class="logo" />
+      <h1>Horizon Tech Solutions</h1>
+    
+      <ul class="navbar">
+        <li><a href="After_Submit.html">Dashboard</a></li>
+        <li><a href="index.html">Input Metrics</a></li>
+        <li><a href="After_Submit.html">Reports</a></li>
+        <li><a href="Top_Performers.html">Top Performers</a></li>
+      </ul>
+    
+  </header>
+
+  <main>  
+      <h2>Performance Dashboard</h2>
+      
+      <div class="cont">
+        <div class="card">Total Employees: 50</div>
+        <div class="card">Avg Performance Score: 87%</div>
+        <div class="card highlight">Top Performer: Jane Doe</div>
+      </div>
+    
+  </main>
+  <br>
+
+  <hr>
+  <main>
+
+      <h2>Enter Performance Metrics</h2>
+      
+      <form action="After_Submit.html" method="GET">
+        <label>Employee Name: <input type="text" id="empName" required/></label>
+        <label>Project Completion Rate (%): <input type="number" id="project" required /></label>
+        <label for="customer">Customer Satisfaction (1-10): </label>
+          <select id="customer" name="customer">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+            <option value=10>10</option>
+          </select>
+
+        
+        <label for="team">Team Collaboration (1-10): </label>
+          <select id="team" name="team">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+            <option value=10>10</option>
+          </select>
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Horizon Tech Solutions</p>
+  </footer>
+</body>
+</html>
+
